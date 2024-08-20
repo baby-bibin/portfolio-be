@@ -5,6 +5,7 @@ const getProfile = (req, res) => {
 };
 
 const updateProfile = (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
   res.send("Profile details updated successfully.");
 };
 
