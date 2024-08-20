@@ -5,9 +5,16 @@ const profileRoute = require("./app/routes/profileRoute");
 
 const app = express();
 const PORT = process.env.PORT;
-app.use(express.json());
 
+app.use(express.json());
 app.use("/profile", profileRoute);
+
+const cors = require("cors");
+
+let corsOptions = {
+  origin: ["https://baby-bibin.github.io"],
+};
+app.use(cors(corsOptions));
 
 app.listen(PORT, (error) => {
   if (!error) {
