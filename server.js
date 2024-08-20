@@ -14,7 +14,7 @@ const cors = require("cors");
 let corsOptions = {
   origin: ["https://baby-bibin.github.io"],
 };
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.listen(PORT, (error) => {
   if (!error) {
