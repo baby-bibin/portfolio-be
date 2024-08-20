@@ -1,11 +1,20 @@
 const express = require("express");
+require("dotenv/config");
+
+const profileRoute = require("./app/routes/profileRoute");
+
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT;
+app.use(express.json());
 
-app.get("/hello-world", (req, res) => {
-  res.send("Hello World!");
-});
+app.use("/profile", profileRoute);
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+app.listen(PORT, (error) => {
+  if (!error) {
+    console.log(
+      "Server is Successfully Running, and App is listening on port " + PORT
+    );
+  } else {
+    console.log("Error occurred, server can't start", error);
+  }
 });

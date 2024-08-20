@@ -1,0 +1,186 @@
+{
+  "profileCardDetails": {
+    "name": "Bibin Baby",
+    "role": "Fullstack Developer - Angular | React | Node.js | Python",
+    "info": [
+      {
+        "label": "Knowledge Lens: A Rockwell Automation Company",
+        "link": "https://www.Knowledge Lens.com/",
+        "icon": "assets/images/company.svg"
+      },
+      {
+        "label": "Bengaluru, Karnataka, India",
+        "link": "https://goo.gl/maps/4SqY4wEgmLCQHujX8",
+        "icon": "assets/images/location.svg"
+      },
+      {
+        "label": "Kannur, Kerala, India",
+        "link": "https://goo.gl/maps/Ak7jJiCXMS3nYfkK8",
+        "icon": "assets/images/home.svg"
+      }
+    ],
+    "contact": [
+      {
+        "icon": "assets/images/github.svg",
+        "label": "Github",
+        "link": "https://github.com/baby-bibin",
+        "userId": "baby-bibin"
+      },
+      {
+        "icon": "assets/images/linkedin.svg",
+        "label": "Linkedin",
+        "link": "https://www.linkedin.com/in/baby-bibin",
+        "userId": "baby-bibin"
+      },
+      {
+        "icon": "assets/images/gmail.svg",
+        "label": "Gmail",
+        "link": "mailto:bibinbaby1996@gmail.com",
+        "userId": "bibinbaby1996@gmail.com"
+      },
+      {
+        "icon": "assets/images/phone.svg",
+        "label": "Phone",
+        "link": "+919747023547",
+        "userId": "+919747023547"
+      },
+      {
+        "icon": "assets/images/insta.svg",
+        "label": "Instagram",
+        "link": "https://www.instagram.com/bibin.baby_/",
+        "userId": "bibin.baby_"
+      }
+    ]
+  },
+  "summaryCardDetails": {
+    "summary": "A Fullstack Developer with more than five years of hands-on experience in designing, developing, and maintaining robust web applications. Proficient in both frontend and backend technologies and have a deep understanding of various programming languages, frameworks, and tools and well-versed in HTML, CSS, JavaScript, and frontend frameworks React and Angular.\n\nOn the backend, skilled in server-side scripting languages Node.js and Python, along with experience in database management using technologies MySQL, MongoDB, PostgreSQL. And I've comprehensive skill set that enables to handle the entire software development life cycle, from design to deployment and maintenance. With a commitment to staying updated on emerging technologies and industry best practices."
+  },
+  "experience": {
+    "timeline": [
+      {
+        "title": "Internship Trainee",
+        "company": "Knowledge Lens",
+        "from": "Jan 2019",
+        "to": "May 2019",
+        "location": "Bangalore, Karnataka, India",
+        "timePeriod": "5 Months"
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Knowledge Lens",
+        "from": "Jun 2019",
+        "to": "May 2021",
+        "location": "Pune, Maharashtra, India",
+        "timePeriod": "2 Years"
+      },
+      {
+        "title": "Sr. Full Stack Developer",
+        "company": "Knowledge Lens",
+        "from": "Jun 2021",
+        "to": "Oct 2022",
+        "location": "Bangalore, Karnataka, India",
+        "timePeriod": "1.5 Years"
+      },
+      {
+        "title": "Technology Lead",
+        "company": "Knowledge Lens",
+        "from": "Nov 2022",
+        "to": "Present",
+        "location": "Bangalore, Karnataka, India",
+        "timePeriod": ""
+      }
+    ]
+  },
+  "education": [
+    {
+      "title": "Master of Computer Applications",
+      "subtitle": "TKM College Of Engineering, Kollam, Kerala, India",
+      "year": "2017 - 2019",
+      "image": "assets/images/tkm.png",
+      "link": "https://www.tkmce.ac.in/"
+    },
+    {
+      "subtitle": "Mahatma Gandhi College, Iritty, Kerala, India",
+      "title": "Bachelor of Science in Computer Science",
+      "year": "2014 - 2017",
+      "image": "assets/images/mg-college.png",
+      "link": "https://mgcollege.ac.in/"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Introduction to Generative AI Learning Path",
+      "authority": "Google"
+    },
+    { "title": "Angular - The Complete Guide", "authority": "Udemy" },
+    { "title": "React - The Complete Guide", "authority": "Udemy" }
+  ],
+  "works": [
+    {
+      "title": "Angular",
+      "image": "assets/images/tech/angular.svg",
+      "description": "Angular is a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS",
+      "link": ""
+    },
+    {
+      "title": "React",
+      "image": "assets/images/tech/react.svg",
+      "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
+      "link": ""
+    },
+    {
+      "title": "Node.js",
+      "image": "assets/images/tech/nodejs.svg",
+      "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+      "link": ""
+    },
+    {
+      "title": "ExpressJS",
+      "image": "assets/images/tech/expressjs.png",
+      "description": "",
+      "link": ""
+    },
+    {
+      "title": "Python",
+      "image": "assets/images/tech/python.svg",
+      "description": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects.",
+      "link": ""
+    },
+    {
+      "title": "Flask",
+      "image": "assets/images/tech/flask.svg",
+      "description": "",
+      "link": ""
+    },
+    {
+      "title": "Fast API",
+      "image": "assets/images/tech/fastapi.png",
+      "description": "",
+      "link": ""
+    },
+    {
+      "title": "MySQL",
+      "image": "assets/images/tech/mysql.png",
+      "description": "",
+      "link": ""
+    },
+    {
+      "title": "PostgreSQL",
+      "image": "assets/images/tech/postgres.png",
+      "description": "",
+      "link": ""
+    },
+    {
+      "title": "MongoDB",
+      "image": "assets/images/tech/mongodb.png",
+      "description": "",
+      "link": ""
+    },
+    {
+      "title": "Open AI",
+      "image": "assets/images/tech/openai-2.jpg",
+      "description": "",
+      "link": ""
+    }
+  ]
+}
