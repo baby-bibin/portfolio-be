@@ -1,29 +1,32 @@
 const express = require("express");
+const cors = require("cors");
+
 require("dotenv/config");
 
 const profileRoute = require("./app/routes/profileRoute");
 
 const app = express();
 const PORT = process.env.PORT;
+const allowedOrigins = [
+  "http://localhost:3006",
+  "https://baby-bibin.github.io",
+];
 
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+  })
+);
+
 app.use("/profile", profileRoute);
-
-const cors = require("cors");
-
-let corsOptions = {
-  origin: ["https://baby-bibin.github.io"],
-};
-app.use(cors());
-
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
 
 app.listen(PORT, (error) => {
   if (!error) {
